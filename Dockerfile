@@ -1,5 +1,5 @@
-# Amazon JDK11 사용
-FROM amazoncorretto:11
+# JDK11 이미지 사용
+FROM openjdk:11-jdk
 
 # JAR_FILE 변수에 값을 저장
 ARG JAR_FILE=build/libs/*.jar
